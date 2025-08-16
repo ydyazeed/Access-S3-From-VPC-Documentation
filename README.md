@@ -107,7 +107,12 @@ For a production environment, consider:
 - Implementing proper logging and monitoring
 
 ## Project Evolution
-After successfully implementing this initial setup, I enhanced the security of the architecture by implementing VPC endpoints for S3 access. This improvement eliminated the need for internet access to reach S3, providing a more secure and private connection between the VPC and S3. The VPC endpoint approach is recommended for production environments as it:
+After successfully implementing this initial setup, I enhanced the security of the architecture by implementing VPC endpoints for S3 access. This improvement eliminated the need for internet access to reach S3, providing a more secure and private connection between the VPC and S3.
+
+### Enhanced Architecture with VPC Endpoints
+![VPC S3 Access Architecture with Endpoints](https://raw.githubusercontent.com/ydyazeed/Access-S3-From-VPC-Documentation/main/images/vpc-s3-architecture-with-endpoints.png)
+
+The above diagram shows the improved architecture using VPC endpoints. This approach is recommended for production environments as it:
 - Keeps traffic within AWS network
 - Reduces exposure to potential security threats
 - Provides more predictable network performance
