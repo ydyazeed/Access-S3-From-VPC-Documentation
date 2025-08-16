@@ -3,7 +3,7 @@
 This guide documents my experience setting up and accessing Amazon S3 from within a Virtual Private Cloud (VPC) on AWS. I'll share the steps I followed, challenges I encountered, and how I resolved them.
 
 ## Architecture Overview
-![VPC S3 Access Architecture](images/vpc-s3-architecture.png)
+![VPC S3 Access Architecture](https://raw.githubusercontent.com/ydyazeed/Access-S3-From-VPC-Documentation/main/images/vpc-s3-architecture.png)
 
 The above diagram illustrates the architecture implemented in this project, showing how the EC2 instance in the public subnet accesses S3 through the Internet Gateway.
 
